@@ -9,11 +9,7 @@ import { ProdutosService } from '../model/produtos.service';
 })
 export class HomePage {
 
-  produto: Produto;
-  produtoID: number;
-  botao: boolean;
   currentDisplayIndex:number=-1;
-
 
   constructor(private ps: ProdutosService) {  }
 
